@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:screenOrientation="portrait"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textAlignment="center"
+        android:id="@+id/annonce"/>
+
+
+    <TableLayout
+        android:layout_width="275dp"
+        android:stretchColumns="0"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+        android:id="@+id/idTable"
+        android:layout_below="@+id/annonce">
+
+    </TableLayout>
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:id="@+id/dee1"
+        android:layout_alignParentEnd="true"
+       />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:id="@+id/dee2"
+        android:layout_below="@+id/dee1"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:id="@+id/dee3"
+        android:layout_below="@+id/dee2"
+        android:layout_alignParentEnd="true"
+       />
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:id="@+id/dee4"
+        android:layout_below="@+id/dee3"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:id="@+id/dee5"
+        android:layout_below="@+id/dee4"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:id="@+id/roll"
+        android:text="@string/Roll"/>
+
+
+</RelativeLayout>

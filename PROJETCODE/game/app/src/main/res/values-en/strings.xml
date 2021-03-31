@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yahtzee</string>
+    <string name="action_settings">Settings</string>
+    <string name="SettingTittle">Settings panel</string>
+    <string name="NomJoueur">Your name : </string>
+    <string name="SharetopScore">Share your highscore</string>
+    <string name="soutien">Social network</string>
+    <string name="Roll">Play</string>
+    <string name="lancer1">,  you still have 2 launched</string>
+    <string name="lancer2">,  you still have 1 launched</string>
+    <string name="lancer3">,  select a score</string>
+    <string name="TourNum">Tour number : </string>
+    <string name="EndGame">Congratulations! You finished with a score of : </string>
+    <string name="titleRules"> RULES </string>
+    <string name="fullRules" />
+</resources>

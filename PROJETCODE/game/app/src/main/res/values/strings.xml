@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="action_settings">Settings</string>
+    <string name="SettingTittle">Settings panel</string>
+    <string name="NomJoueur">Ton nom : </string>
+    <string name="SharetopScore">Partage ton Score  </string>
+    <string name="soutien">Réseaux sociaux</string>
+    <string name="Roll">Jouer</string>
+    <string name="lancer1">,  Il vous reste 2 lancé</string>
+    <string name="lancer2">,   Il vous reste 1 lancé </string>
+    <string name="lancer3">,  Sélectionner un score</string>
+    <string name="TourNum">Tour numéro : </string>
+    <string name="EndGame">Bravo ! Tu as fini avec un score de : </string>
+    <string name="titleRules"> Règles </string>
+    <string name="fullRules">Le Yams se joue avec 5 dés et se finit une fois toutes les cases de la fiche de score
+remplies. Chaque joueur joue tout à tour et dispose de 3 lancers à chaque coup. L’objectif étant de
+réaliser des combinaisons qui rapportent des points. Le joueur a le choix de reprendre tous ou une
+partie des dés à chaque lancé, selon son gré, pour tenter d’obtenir la combinaison voulue. A chaque
+tour, le joueur doit obligatoirement inscrire son score dans une des cases de la feuille de marque que
+ce soit par un X ou par les points qu’il a obtenu.</string>
+    <string name="regleBrelan">Brelan: les joueurs doivent obtenir 3 dés de même valeur / ils marquent 3 fois la valeur des dés identiques</string>
+    <string name="regleCarre">Carré: les joueurs doivent obtenir 4 dés de même valeur / ils marquent 4 fois la valeur des dés identiques</string>
+    <string name="regleFull">Full: les joueurs doivent obtenir 3 dés de même valeur et 2 dés de même valeur - (brelan + paire) / ils marquent 25 points</string>
+    <string name="reglePetite">Petite Suite: les joueurs doivent obtenir 4 dés qui se suivent (1-2-3-4 / 2-3-4-5 / 3-4-5-6) / ils marquent 30 points</string>
+    <string name="regleGrande">Grande Suite: les joueurs doivent obtenir 5 dés qui se suivent (1-2-3-4-5 / 2-3-4-5-6) / ils marquent 40 points</string>
+    <string name="regleYams">Yams: les joueurs doivent obtenir 5 dés de même valeur / ils marquent 50 points (seulement 2 Yams sont autorisés)</string>
+    <string name="regleChance">Chance: les joueurs doivent obtenir le plus grand nombre de points / ils marquent la somme de la valeur des dés</string>
+    <string name="high_score"> Ton meilleur score : </string>
+    <string name="saved_high_score" />
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:screenOrientation="portrait"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleRules"
+        android:id="@+id/titre"
+        android:textSize="35dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fullRules"
+        android:id="@+id/fullregles"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/titre"
+        android:layout_alignParentEnd="true"/>
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regleBrelan"
+        android:id="@+id/reglebrelan"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/fullregles"
+        android:layout_alignParentEnd="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regleFull"
+        android:id="@+id/reglefull"
+        android:gravity="center"
+        android:layout_below="@+id/reglebrelan"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regleCarre"
+        android:id="@+id/reglecarre"
+        android:gravity="center"
+        android:layout_below="@+id/reglefull"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reglePetite"
+        android:id="@+id/reglepetite"
+        android:gravity="center"
+        android:layout_below="@+id/reglecarre"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regleGrande"
+        android:id="@+id/reglegrande"
+        android:gravity="center"
+        android:layout_below="@+id/reglepetite"
+        android:layout_alignParentEnd="true"
+        />
+
+
+
+</RelativeLayout>

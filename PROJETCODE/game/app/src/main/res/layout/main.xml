@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType = "centerCrop"
+    android:background="@drawable/background"
+    android:id="@+id/backgroundchinoi"
+    android:screenOrientation="portrait"
+    android:weightSum="1">
+
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.32">
+    </FrameLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.30">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2" android:layout_gravity="center_horizontal|top"
+                />
+    </FrameLayout>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.36">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setting"
+                android:layout_gravity="left|bottom"
+                android:background="@drawable/settingbouton"
+                android:onClick="ButtonOnClick"/>
+
+        <ImageButton
+                android:layout_width="108dp"
+                android:layout_height="108dp"
+                android:id="@+id/play"
+                android:layout_gravity="center"
+                android:background="@drawable/playbouton"
+                android:onClick="ButtonOnClick"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:text="@string/titleRules"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:id="@+id/regles"
+            android:onClick="ButtonOnClick"/>
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
+
